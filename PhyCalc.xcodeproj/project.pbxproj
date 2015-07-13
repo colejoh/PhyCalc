@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F624D391ADD751500589A78 /* MirrorLensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F624D381ADD751500589A78 /* MirrorLensViewController.m */; };
+		2F624D3C1ADD752300589A78 /* WaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F624D3B1ADD752300589A78 /* WaveViewController.m */; };
+		2F92963F1AE169B000F99EBF /* TorqueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F92963E1AE169B000F99EBF /* TorqueViewController.m */; };
+		2F9296421AE180D200F99EBF /* CentripetalAccelerationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9296411AE180D200F99EBF /* CentripetalAccelerationViewController.m */; };
+		2F9296451AE180EA00F99EBF /* CentripetalForceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9296441AE180EA00F99EBF /* CentripetalForceViewController.m */; };
+		2F92964B1AE1ADE600F99EBF /* Bar Icons White 30 in Resources */ = {isa = PBXBuildFile; fileRef = 2F92964A1AE1ADE600F99EBF /* Bar Icons White 30 */; };
+		2FCBB3341ADBFF4D00D170EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCBB3331ADBFF4D00D170EC /* main.m */; };
+		2FCBB3371ADBFF4D00D170EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCBB3361ADBFF4D00D170EC /* AppDelegate.m */; };
+		2FCBB33A1ADBFF4D00D170EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCBB3391ADBFF4D00D170EC /* ViewController.m */; };
+		2FCBB33D1ADBFF4D00D170EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCBB33B1ADBFF4D00D170EC /* Main.storyboard */; };
+		2FCBB33F1ADBFF4D00D170EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCBB33E1ADBFF4D00D170EC /* Images.xcassets */; };
+		2FCBB3421ADBFF4D00D170EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FCBB3401ADBFF4D00D170EC /* LaunchScreen.xib */; };
+		2FCBB34E1ADBFF4D00D170EC /* PhyCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCBB34D1ADBFF4D00D170EC /* PhyCalcTests.m */; };
+		2FE127831ADEFC62005D563B /* KinematicNoFVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE127821ADEFC62005D563B /* KinematicNoFVViewController.m */; };
+		2FE127861ADEFE2A005D563B /* KinematicNoAccelerationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE127851ADEFE2A005D563B /* KinematicNoAccelerationViewController.m */; };
+		2FE127891ADF058E005D563B /* KinematicNoDisplacementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE127881ADF058E005D563B /* KinematicNoDisplacementViewController.m */; };
+		2FE1278C1ADF05A3005D563B /* KinematicNoTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1278B1ADF05A3005D563B /* KinematicNoTimeViewController.m */; };
+		2FE1278E1AE05563005D563B /* buttonbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE1278D1AE05563005D563B /* buttonbg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FCBB3481ADBFF4D00D170EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FCBB3261ADBFF4C00D170EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FCBB32D1ADBFF4D00D170EC;
+			remoteInfo = PhyCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F624D371ADD751500589A78 /* MirrorLensViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MirrorLensViewController.h; sourceTree = "<group>"; };
+		2F624D381ADD751500589A78 /* MirrorLensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MirrorLensViewController.m; sourceTree = "<group>"; };
+		2F624D3A1ADD752300589A78 /* WaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveViewController.h; sourceTree = "<group>"; };
+		2F624D3B1ADD752300589A78 /* WaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveViewController.m; sourceTree = "<group>"; };
+		2F92963D1AE169B000F99EBF /* TorqueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorqueViewController.h; sourceTree = "<group>"; };
+		2F92963E1AE169B000F99EBF /* TorqueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorqueViewController.m; sourceTree = "<group>"; };
+		2F9296401AE180D200F99EBF /* CentripetalAccelerationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentripetalAccelerationViewController.h; sourceTree = "<group>"; };
+		2F9296411AE180D200F99EBF /* CentripetalAccelerationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentripetalAccelerationViewController.m; sourceTree = "<group>"; };
+		2F9296431AE180EA00F99EBF /* CentripetalForceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentripetalForceViewController.h; sourceTree = "<group>"; };
+		2F9296441AE180EA00F99EBF /* CentripetalForceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentripetalForceViewController.m; sourceTree = "<group>"; };
+		2F92964A1AE1ADE600F99EBF /* Bar Icons White 30 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Bar Icons White 30"; sourceTree = "<group>"; };
+		2FCBB32E1ADBFF4D00D170EC /* PhyCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhyCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCBB3321ADBFF4D00D170EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCBB3331ADBFF4D00D170EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FCBB3351ADBFF4D00D170EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FCBB3361ADBFF4D00D170EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FCBB3381ADBFF4D00D170EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FCBB3391ADBFF4D00D170EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FCBB33C1ADBFF4D00D170EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FCBB33E1ADBFF4D00D170EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FCBB3411ADBFF4D00D170EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2FCBB3471ADBFF4D00D170EC /* PhyCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhyCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCBB34C1ADBFF4D00D170EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCBB34D1ADBFF4D00D170EC /* PhyCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhyCalcTests.m; sourceTree = "<group>"; };
+		2FE127811ADEFC62005D563B /* KinematicNoFVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinematicNoFVViewController.h; sourceTree = "<group>"; };
+		2FE127821ADEFC62005D563B /* KinematicNoFVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinematicNoFVViewController.m; sourceTree = "<group>"; };
+		2FE127841ADEFE2A005D563B /* KinematicNoAccelerationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinematicNoAccelerationViewController.h; sourceTree = "<group>"; };
+		2FE127851ADEFE2A005D563B /* KinematicNoAccelerationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinematicNoAccelerationViewController.m; sourceTree = "<group>"; };
+		2FE127871ADF058E005D563B /* KinematicNoDisplacementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinematicNoDisplacementViewController.h; sourceTree = "<group>"; };
+		2FE127881ADF058E005D563B /* KinematicNoDisplacementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinematicNoDisplacementViewController.m; sourceTree = "<group>"; };
+		2FE1278A1ADF05A3005D563B /* KinematicNoTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinematicNoTimeViewController.h; sourceTree = "<group>"; };
+		2FE1278B1ADF05A3005D563B /* KinematicNoTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinematicNoTimeViewController.m; sourceTree = "<group>"; };
+		2FE1278D1AE05563005D563B /* buttonbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonbg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FCBB32B1ADBFF4D00D170EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCBB3441ADBFF4D00D170EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FCBB3251ADBFF4C00D170EC = {
+			isa = PBXGroup;
+			children = (
+				2FCBB3301ADBFF4D00D170EC /* PhyCalc */,
+				2FCBB34A1ADBFF4D00D170EC /* PhyCalcTests */,
+				2FCBB32F1ADBFF4D00D170EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FCBB32F1ADBFF4D00D170EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FCBB32E1ADBFF4D00D170EC /* PhyCalc.app */,
+				2FCBB3471ADBFF4D00D170EC /* PhyCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FCBB3301ADBFF4D00D170EC /* PhyCalc */ = {
+			isa = PBXGroup;
+			children = (
+				2FCBB33B1ADBFF4D00D170EC /* Main.storyboard */,
+				2FCBB3351ADBFF4D00D170EC /* AppDelegate.h */,
+				2FCBB3361ADBFF4D00D170EC /* AppDelegate.m */,
+				2FCBB3381ADBFF4D00D170EC /* ViewController.h */,
+				2FCBB3391ADBFF4D00D170EC /* ViewController.m */,
+				2F9296401AE180D200F99EBF /* CentripetalAccelerationViewController.h */,
+				2F9296411AE180D200F99EBF /* CentripetalAccelerationViewController.m */,
+				2F9296431AE180EA00F99EBF /* CentripetalForceViewController.h */,
+				2F9296441AE180EA00F99EBF /* CentripetalForceViewController.m */,
+				2FE127811ADEFC62005D563B /* KinematicNoFVViewController.h */,
+				2FE127821ADEFC62005D563B /* KinematicNoFVViewController.m */,
+				2FE127841ADEFE2A005D563B /* KinematicNoAccelerationViewController.h */,
+				2FE127851ADEFE2A005D563B /* KinematicNoAccelerationViewController.m */,
+				2FE127871ADF058E005D563B /* KinematicNoDisplacementViewController.h */,
+				2FE127881ADF058E005D563B /* KinematicNoDisplacementViewController.m */,
+				2FE1278A1ADF05A3005D563B /* KinematicNoTimeViewController.h */,
+				2FE1278B1ADF05A3005D563B /* KinematicNoTimeViewController.m */,
+				2F624D371ADD751500589A78 /* MirrorLensViewController.h */,
+				2F624D381ADD751500589A78 /* MirrorLensViewController.m */,
+				2F92963D1AE169B000F99EBF /* TorqueViewController.h */,
+				2F92963E1AE169B000F99EBF /* TorqueViewController.m */,
+				2F624D3A1ADD752300589A78 /* WaveViewController.h */,
+				2F624D3B1ADD752300589A78 /* WaveViewController.m */,
+				2FCBB33E1ADBFF4D00D170EC /* Images.xcassets */,
+				2FCBB3401ADBFF4D00D170EC /* LaunchScreen.xib */,
+				2FCBB3311ADBFF4D00D170EC /* Supporting Files */,
+			);
+			path = PhyCalc;
+			sourceTree = "<group>";
+		};
+		2FCBB3311ADBFF4D00D170EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FCBB3321ADBFF4D00D170EC /* Info.plist */,
+				2F92964A1AE1ADE600F99EBF /* Bar Icons White 30 */,
+				2FE1278D1AE05563005D563B /* buttonbg.png */,
+				2FCBB3331ADBFF4D00D170EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FCBB34A1ADBFF4D00D170EC /* PhyCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FCBB34D1ADBFF4D00D170EC /* PhyCalcTests.m */,
+				2FCBB34B1ADBFF4D00D170EC /* Supporting Files */,
+			);
+			path = PhyCalcTests;
+			sourceTree = "<group>";
+		};
+		2FCBB34B1ADBFF4D00D170EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FCBB34C1ADBFF4D00D170EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FCBB32D1ADBFF4D00D170EC /* PhyCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FCBB3511ADBFF4D00D170EC /* Build configuration list for PBXNativeTarget "PhyCalc" */;
+			buildPhases = (
+				2FCBB32A1ADBFF4D00D170EC /* Sources */,
+				2FCBB32B1ADBFF4D00D170EC /* Frameworks */,
+				2FCBB32C1ADBFF4D00D170EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhyCalc;
+			productName = PhyCalc;
+			productReference = 2FCBB32E1ADBFF4D00D170EC /* PhyCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FCBB3461ADBFF4D00D170EC /* PhyCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FCBB3541ADBFF4D00D170EC /* Build configuration list for PBXNativeTarget "PhyCalcTests" */;
+			buildPhases = (
+				2FCBB3431ADBFF4D00D170EC /* Sources */,
+				2FCBB3441ADBFF4D00D170EC /* Frameworks */,
+				2FCBB3451ADBFF4D00D170EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FCBB3491ADBFF4D00D170EC /* PBXTargetDependency */,
+			);
+			name = PhyCalcTests;
+			productName = PhyCalcTests;
+			productReference = 2FCBB3471ADBFF4D00D170EC /* PhyCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FCBB3261ADBFF4C00D170EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Cole Johnson";
+				TargetAttributes = {
+					2FCBB32D1ADBFF4D00D170EC = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					2FCBB3461ADBFF4D00D170EC = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = PQCJ6FZGEY;
+						TestTargetID = 2FCBB32D1ADBFF4D00D170EC;
+					};
+				};
+			};
+			buildConfigurationList = 2FCBB3291ADBFF4C00D170EC /* Build configuration list for PBXProject "PhyCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FCBB3251ADBFF4C00D170EC;
+			productRefGroup = 2FCBB32F1ADBFF4D00D170EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FCBB32D1ADBFF4D00D170EC /* PhyCalc */,
+				2FCBB3461ADBFF4D00D170EC /* PhyCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FCBB32C1ADBFF4D00D170EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE1278E1AE05563005D563B /* buttonbg.png in Resources */,
+				2FCBB33D1ADBFF4D00D170EC /* Main.storyboard in Resources */,
+				2FCBB3421ADBFF4D00D170EC /* LaunchScreen.xib in Resources */,
+				2FCBB33F1ADBFF4D00D170EC /* Images.xcassets in Resources */,
+				2F92964B1AE1ADE600F99EBF /* Bar Icons White 30 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCBB3451ADBFF4D00D170EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FCBB32A1ADBFF4D00D170EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCBB33A1ADBFF4D00D170EC /* ViewController.m in Sources */,
+				2F624D391ADD751500589A78 /* MirrorLensViewController.m in Sources */,
+				2F624D3C1ADD752300589A78 /* WaveViewController.m in Sources */,
+				2FE127831ADEFC62005D563B /* KinematicNoFVViewController.m in Sources */,
+				2F9296451AE180EA00F99EBF /* CentripetalForceViewController.m in Sources */,
+				2F92963F1AE169B000F99EBF /* TorqueViewController.m in Sources */,
+				2FE127891ADF058E005D563B /* KinematicNoDisplacementViewController.m in Sources */,
+				2FCBB3371ADBFF4D00D170EC /* AppDelegate.m in Sources */,
+				2FE1278C1ADF05A3005D563B /* KinematicNoTimeViewController.m in Sources */,
+				2FE127861ADEFE2A005D563B /* KinematicNoAccelerationViewController.m in Sources */,
+				2FCBB3341ADBFF4D00D170EC /* main.m in Sources */,
+				2F9296421AE180D200F99EBF /* CentripetalAccelerationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCBB3431ADBFF4D00D170EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCBB34E1ADBFF4D00D170EC /* PhyCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FCBB3491ADBFF4D00D170EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FCBB32D1ADBFF4D00D170EC /* PhyCalc */;
+			targetProxy = 2FCBB3481ADBFF4D00D170EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FCBB33B1ADBFF4D00D170EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FCBB33C1ADBFF4D00D170EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FCBB3401ADBFF4D00D170EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FCBB3411ADBFF4D00D170EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F92964F1AE1D46D00F99EBF /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cole Johnson (PQCJ6FZGEY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cole Johnson (PQCJ6FZGEY)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "A8800824-B1F3-4657-A534-72136DCAC52F";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		2F9296501AE1D46D00F99EBF /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cole Johnson (PQCJ6FZGEY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cole Johnson (PQCJ6FZGEY)";
+				INFOPLIST_FILE = PhyCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A8800824-B1F3-4657-A534-72136DCAC52F";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		2F9296511AE1D46D00F99EBF /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhyCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhyCalc.app/PhyCalc";
+			};
+			name = Distribution;
+		};
+		2FCBB34F1ADBFF4D00D170EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cole Johnson (PQCJ6FZGEY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cole Johnson (PQCJ6FZGEY)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "A8800824-B1F3-4657-A534-72136DCAC52F";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FCBB3501ADBFF4D00D170EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cole Johnson (PQCJ6FZGEY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cole Johnson (PQCJ6FZGEY)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "A8800824-B1F3-4657-A534-72136DCAC52F";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FCBB3521ADBFF4D00D170EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cole Johnson (PQCJ6FZGEY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cole Johnson (PQCJ6FZGEY)";
+				INFOPLIST_FILE = PhyCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A8800824-B1F3-4657-A534-72136DCAC52F";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2FCBB3531ADBFF4D00D170EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cole Johnson (PQCJ6FZGEY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cole Johnson (PQCJ6FZGEY)";
+				INFOPLIST_FILE = PhyCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A8800824-B1F3-4657-A534-72136DCAC52F";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2FCBB3551ADBFF4D00D170EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhyCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhyCalc.app/PhyCalc";
+			};
+			name = Debug;
+		};
+		2FCBB3561ADBFF4D00D170EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhyCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhyCalc.app/PhyCalc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FCBB3291ADBFF4C00D170EC /* Build configuration list for PBXProject "PhyCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCBB34F1ADBFF4D00D170EC /* Debug */,
+				2FCBB3501ADBFF4D00D170EC /* Release */,
+				2F92964F1AE1D46D00F99EBF /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FCBB3511ADBFF4D00D170EC /* Build configuration list for PBXNativeTarget "PhyCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCBB3521ADBFF4D00D170EC /* Debug */,
+				2FCBB3531ADBFF4D00D170EC /* Release */,
+				2F9296501AE1D46D00F99EBF /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FCBB3541ADBFF4D00D170EC /* Build configuration list for PBXNativeTarget "PhyCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCBB3551ADBFF4D00D170EC /* Debug */,
+				2FCBB3561ADBFF4D00D170EC /* Release */,
+				2F9296511AE1D46D00F99EBF /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FCBB3261ADBFF4C00D170EC /* Project object */;
+}
