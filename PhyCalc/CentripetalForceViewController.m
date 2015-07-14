@@ -80,15 +80,7 @@
                                               cancelButtonTitle:@"OK"
                                               otherButtonTitles:nil];
         [alert show];
-        
-    } else if (!forceIsNumeric || !massIsNumeric || !velocityIsNumeric || !radiusIsNumeric) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error"
-                                                        message:@"Variables can only be numbers."
-                                                       delegate:nil
-                                              cancelButtonTitle:@"OK"
-                                              otherButtonTitles:nil];
-        [alert show];
-        
+           
     } else {
         
         float force = [[self.forceTextField text] floatValue];

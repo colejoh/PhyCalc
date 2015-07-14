@@ -76,14 +76,6 @@
                                                   otherButtonTitles:nil];
         [alert show];
         
-    } else if(!velocityIsNumeric || !accelerationIsNumeric || !radiusIsNumeric) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error"
-                                                        message:@"Variables can only be numbers."
-                                                       delegate:nil
-                                              cancelButtonTitle:@"OK"
-                                              otherButtonTitles:nil];
-        [alert show];
-        
     } else {
         
         float velocity = [[self.velocityTextField text] floatValue];
